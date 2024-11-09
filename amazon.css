@@ -1,0 +1,398 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+nav {
+    height: 60px;
+    width: 100%;
+    background-color: #131921;
+    display: flex;
+    align-items: center;
+
+}
+
+nav .left-nav .logo img {
+    height: 55px;
+    width: 100%;
+}
+
+.logo {
+    background: url(Sec-Assets/amazon_logo.png);
+    background-size: cover;
+    margin-left: 11px;
+    padding-top: 5.5px;
+    width: 100px;
+    height: 45px;
+}
+
+.left-nav {
+    display: flex;
+    height: 60px;
+    align-items: center;
+}
+
+.loc-logo {
+    width: 18px;
+    height: 15px;
+    margin-top: 8px;
+}
+
+nav .left-nav .location {
+    color: rgb(255, 255, 255);
+    width: 90px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 0 0 0 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.loc-text {
+    line-height: 0.89;
+}
+
+.light-text {
+    font-size: 13.2px;
+    opacity: 0.8;
+    color: white;
+}
+.bold-text {
+    font-size: 15px;
+    font-weight: 700;
+    color: white;
+}
+.nav-search {
+    display: flex;
+    width: 46.7rem;
+    align-items: center;
+    height: 35px;
+}
+
+#select {
+    border-radius: 0.4rem 0 0 0.4rem;
+    background-color: #ffffff;
+    
+    text-align: center;
+   height: 100%;
+    border: none;
+    border-right: 1px solid #000000ad;
+}
+.nav-search input {
+    width: 39.5rem;
+    height: 100%;
+    font-size: 1rem;
+    border: none;
+    text-indent: 9px;
+    
+}
+.nav-search .btn-search {
+    height: 100%;
+    width: 2.1rem;
+    border: none;
+    background-color: #f8b256;
+    border-radius: 0 0.4rem 0.4rem 0;
+}
+.btn-search:hover {
+    background-color: #f3a847;
+}
+.nav-search .btn-search i {
+    font-size: 1.2rem;
+    opacity: 0.8;
+}
+
+.nav-tools {
+    display: flex;
+    align-items: center;
+}
+.language {
+    display: flex;
+    align-items: center;
+    padding: 0 0.4rem 0 0.5rem;
+    height: 50px;
+}
+
+.language img {
+    height: 1.7rem;
+    padding-right: 0.3rem;
+}
+.lang {
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+.sign-in {
+    width: 7.5rem;
+    padding-left: 7px;
+    margin-right: 4px;
+    margin-left: 5px;
+    height: 50px
+}
+.return-order {
+    width: 4.5rem;
+    height: 50px;
+    margin-right: 0.5rem;
+    padding-left: 0.4rem;
+}
+.cart {
+    width: 5.5rem;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding-left: 0.45rem;
+}
+.cart i {
+    font-size: 1.8rem;
+}
+.zero {
+    color: #ffc107;
+}
+
+.border {
+    border: solid 1px transparent;
+}
+
+.border:hover {
+    border: solid white 1px;
+    border-radius: 0.2rem;
+}
+.flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media (max-width: 1115px) {
+    nav {
+        width: 100%;
+    }
+    .nav-search {
+        width: 30rem;
+    }
+    .nav-search .btn-search {
+        height: 35px;
+    width: 2.1rem;
+    }
+    .nav-search input {
+        width: 25rem;
+    }
+    .nav-tools {
+        margin-left: 0.5rem;
+    }
+}
+
+.second-nav {
+    background-color: #232f3e;
+    height: 39px;
+    display: flex;
+    padding-left: 10px;
+}
+.other-options {
+    display: flex;
+}
+.second-nav a {
+    color: white;
+    font-size: 0.95rem;
+    padding: 8px 15px;
+    text-decoration: none;
+    font-weight: 500;
+    margin: 3px;
+}
+
+.all a {
+    padding: 0;
+    font-weight: 700;
+}
+.all {
+    padding: 8px 15px;
+    margin: 3px;
+}
+
+.hero-section {
+    background: url(Sec-Assets/hero_image.jpg);
+    height: 320px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.hero-content {
+    background-color: white;
+    height: 35px;
+    width: 1058px;
+    display: flex;
+    font-size: 0.85rem;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.hero-content a {
+    color: cornflowerblue;
+    text-decoration: none;   
+}
+
+.shop-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #c0d4d5;
+    padding-top: 25px;
+    width: 100%;
+    flex-direction: row;
+}
+.box {
+    height: 355px;
+    width: 260px;
+    
+    background-color: white;
+    padding: 1.2rem;
+    font-size: 0.94rem;
+    margin-bottom: 1.8rem;
+}
+.box img {
+    width: 100%;
+    height: 17rem;
+    padding: 10px 0 16px 0;
+}
+.box a {
+    color: cornflowerblue;
+    font-size: 0.9rem;
+    text-decoration: none;
+}
+.shop-section .box-2 img {
+    height: 132px;
+    width: 120px;
+    padding: 0;
+    padding-left: 0.35rem;
+    padding-bottom: 0.5rem;
+}
+.shop-section .box-2 h2 {
+    margin-bottom: 0.75rem;
+}
+
+.side-box {
+    padding: 0;
+    height: 150px;
+    width: 300px;
+}
+
+.side-box h2 {
+    padding: 1.2rem 1.2rem 1.1rem 1.2rem;
+}
+
+.side-box img{
+    padding: 0rem;
+    height: 14rem;
+    margin-top: 2rem;
+}
+
+.side-box button {
+    width: 16.7rem;
+    background-color: #ffc107;
+    color: black;
+    height: 2rem;
+    border-radius: 0.7rem;
+    border: none;
+   margin: 0rem 1rem 0.9rem 1rem;
+}
+
+.back-top {
+    width: 100%;
+    height: 50px;
+    background-color: #304054;
+    color: white;
+    text-align: center;
+}
+.back-top:hover {
+    background-color: #3c4f66;
+}
+.back-top p {
+    padding: 1rem;
+}
+
+.foot-links {
+    width: 100%;
+    height: 300px;
+    background-color: #232f3e;
+    display: flex;
+    color: white;
+    padding-top: 3rem;
+    justify-content: space-evenly;
+    border-bottom: 0.5px solid #5b6169;
+}
+.links {
+    width: 13rem;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.8rem;
+}
+.links h4 {
+    font-size: 1.08rem;
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.85rem;
+    opacity: 0.9;
+}
+
+.links a:hover {
+    text-decoration: underline;
+    opacity: 0.8;
+}
+
+.link-box4 {
+    width: 10rem;
+}
+.link-box3 {
+    width: 14rem;
+}
+.link-box2 {
+    width: 11rem;
+}
+.link-box1 {
+    width: 8rem;
+}
+
+.foot-bottom {
+    background-color: #232f3e;
+    display: flex;
+    height: 120px;
+    align-items: center;
+    justify-content: center;
+}
+
+.foot-bottom img {
+    height: 70px;
+    padding-right: 2.3rem;
+}
+
+.gian {
+    height: 2.3rem;
+    width: 8rem;
+    background-color: #232f3e;
+    border: 0.1rem solid rgba(255, 255, 255, 0.719) ;
+    color: white;
+    margin-right: 0.5rem;
+}
+#gian2 {
+    width: 9.7rem;
+}
+#gian3 img {
+    height: 27px;
+    padding-right: 0;
+}
+.gian p {
+    display: inline;
+}
+#gian3  {
+    display: inline-flex;
+    width: 6rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.7rem;
+}

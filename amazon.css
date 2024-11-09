@@ -20,7 +20,7 @@ nav .left-nav .logo img {
 }
 
 .logo {
-    background: url(Sec-Assets/amazon_logo.png);
+    background: url(assets/amazon_logo.png);
     background-size: cover;
     margin-left: 11px;
     padding-top: 5.5px;
@@ -211,7 +211,7 @@ nav .left-nav .location {
 }
 
 .hero-section {
-    background: url(Sec-Assets/hero_image.jpg);
+    background: url(assets/hero_image.jpg);
     height: 320px;
     background-size: cover;
     display: flex;

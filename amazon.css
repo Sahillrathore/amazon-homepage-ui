@@ -239,6 +239,7 @@ nav .left-nav .location {
     justify-content: space-evenly;
     background-color: #c0d4d5;
     padding-top: 25px;
+    gap: .6rem;
     width: 100%;
     flex-direction: row;
 }
